@@ -1,0 +1,30 @@
+"status":"passed","title":"should create a new project in userDB"
+"status":"passed","title":"should return a project information"
+"status":"passed","title":"should change a project information"
+"status":"passed","title":"should delete project from db"
+"status":"passed","title":"should return a projects list for specific user"
+
+"status":"passed","title":"should create a new user in userDB"
+"status":"passed","title":"should return a token after login"
+"status":"passed","title":"should return a userlist with at least 3 people"
+"status":"passed","title":"should change user information"
+"status":"passed","title":"should send user data"
+
+"status":"passed","title":"should create a new award in userDB"
+"status":"passed","title":"should return a award information"
+"status":"passed","title":"should change a award information"
+"status":"passed","title":"should delete award from db"
+"status":"passed","title":"should return a award list for specific user"
+
+"status":"passed","title":"should create a new certificate in userDB"
+"status":"passed","title":"should return a certificate information"
+"status":"passed","title":"should change a certificate information"
+"status":"passed","title":"should delete certificate from db"
+"status":"passed","title":"should return a certificate list for specific user"
+
+"status":"passed","title":"should create a new education in userDB"
+"status":"passed","title":"should return a education information"
+"status":"passed","title":"should change a education information"
+"status":"passed","title":"should delete education from db"
+"status":"passed","title":"should return a education list for specific user"
+

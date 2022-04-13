@@ -1,0 +1,24 @@
+###
+GET http://localhost:5000/
+
+###
+POST http://localhost:5000/user/register
+content-type: application/json
+
+{
+    "name": "kwangtae",
+    "email": "ktkim31@elicer.com",
+    "password": "1234"
+}
+
+###
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/user/login
+content-type: application/json
+
+{
+    "email": "ktkim3@elicer.com",
+    "password": "1234"
+}

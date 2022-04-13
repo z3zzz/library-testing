@@ -1,0 +1,49 @@
+###
+POST http://34.64.140.205:5000/user/login
+content-type: application/json
+
+{
+    "email": "ktkim@elicer.com",
+    "password": "1234"
+}
+
+###
+POST http://34.64.140.205:5000/project/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTZjZGQzNmQtMGIzMy00OTY5LWE2OWEtOGViNGU4MDRkZmYyIiwiaWF0IjoxNjQ0NTg1NDIxfQ.GmViFFz5UqhBFNvI9mquWdw1ynvtqD-Oz3oB7CfCPbI 
+content-type: application/json
+
+{
+    "user_id": "96cdd36d-0b33-4969-a69a-8eb4e804dff2",
+    "title": "플젝1",
+    "description": "프로젝트입니다",
+    "from_date": "어제", 
+    "to_date": "오늘" 
+}
+
+###
+GET http://34.64.140.205:5000/projects/ffef4ffd-75a0-4b11-a8a9-c040813c1a42
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTZjZGQzNmQtMGIzMy00OTY5LWE2OWEtOGViNGU4MDRkZmYyIiwiaWF0IjoxNjQ0NTg1NDIxfQ.GmViFFz5UqhBFNvI9mquWdw1ynvtqD-Oz3oB7CfCPbI 
+
+
+###
+PUT http://34.64.140.205:5000/projects/ffef4ffd-75a0-4b11-a8a9-c040813c1a42
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTZjZGQzNmQtMGIzMy00OTY5LWE2OWEtOGViNGU4MDRkZmYyIiwiaWF0IjoxNjQ0NTg1NDIxfQ.GmViFFz5UqhBFNvI9mquWdw1ynvtqD-Oz3oB7CfCPbI 
+content-type: application/json
+
+{
+    "user_id": "96cdd36d-0b33-4969-a69a-8eb4e804dff2",
+    "title": "플젝2",
+    "description": "프로젝트입니다2",
+    "from_date": "어제2", 
+    "to_date": "오늘2" 
+}
+
+###
+DELETE http://34.64.140.205:5000/projects/ffef4ffd-75a0-4b11-a8a9-c040813c1a42
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTZjZGQzNmQtMGIzMy00OTY5LWE2OWEtOGViNGU4MDRkZmYyIiwiaWF0IjoxNjQ0NTg1NDIxfQ.GmViFFz5UqhBFNvI9mquWdw1ynvtqD-Oz3oB7CfCPbI 
+
+###
+GET http://34.64.140.205:5000/projectlist/96cdd36d-0b33-4969-a69a-8eb4e804dff2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTZjZGQzNmQtMGIzMy00OTY5LWE2OWEtOGViNGU4MDRkZmYyIiwiaWF0IjoxNjQ0NTg1NDIxfQ.GmViFFz5UqhBFNvI9mquWdw1ynvtqD-Oz3oB7CfCPbI 
+
+

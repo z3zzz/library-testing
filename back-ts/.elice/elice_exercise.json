@@ -1,0 +1,59 @@
+{
+  "version": 0,
+  "cmd": [
+    "bash",
+    ".elice/runner.sh"
+  ],
+  "grading_checks": [
+    {
+      "type": "stdout_match",
+      "score": 20,
+      "input_file": ".elice/input/1.txt",
+      "output_file": ".elice/output/1.txt",
+      "time_limit": 1000
+    },
+    {
+      "type": "stdout_match",
+      "score": 20,
+      "input_file": ".elice/input/2.txt",
+      "output_file": ".elice/output/2.txt",
+      "time_limit": 1000
+    },
+    {
+      "type": "stdout_match",
+      "score": 20,
+      "input_file": ".elice/input/3.txt",
+      "output_file": ".elice/output/3.txt",
+      "time_limit": 1000
+    },
+    {
+      "type": "stdout_match",
+      "score": 20,
+      "input_file": ".elice/input/4.txt",
+      "output_file": ".elice/output/4.txt",
+      "time_limit": 1000
+    },
+    {
+      "type": "stdout_match",
+      "score": 10,
+      "input_file": ".elice/input/5.txt",
+      "output_file": ".elice/output/5.txt",
+      "time_limit": 1000
+    },
+    {
+      "type": "stdout_match",
+      "score": 10,
+      "input_file": ".elice/input/6.txt",
+      "output_file": ".elice/output/6.txt",
+      "time_limit": 1000
+    }
+  ],
+  "messages": {
+    "begin": "채점을 시작합니다...\n================================",
+    "end": "================================\n채점을 마쳤습니다.\n총 점수: {score} / {score_total}",
+    "check_correct": "Case {gc_number}. 테스트를 통과했습니다! (+{gc_score})",
+    "check_soft_timeout": "Case {gc_number}. 정답을 맞췄지만 (+{gc_score}), 실행하는 데 너무 오래 걸렸습니다. (-{gc_time_limit_soft_penalty})",
+    "check_wrong": "Case {gc_number}. 정답이 틀렸습니다. (+0)",
+    "check_timeout": "Case {gc_number}. 실행 시간을 초과했습니다. (+0)"
+  }
+}
